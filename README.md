@@ -1,3 +1,10 @@
+
+# [libFGL](https://github.com/alaestor/libFGL) Getting Started
+
+---
+
+## Example Project
+
 This example assumes that you have the [CMake](https://cmake.org/) build system, the [Conan](conan.io/) package manager, and a C++20 compiler (preferably GCC 12.1 or higher as it's officially compatible with libFGL). Also see the [libFGL Getting Started](https://alaestor.github.io/libFGL/page-fgl-getting_started.html) documentation.
 
 > Note: This example tries to follow best practices where possible by using CMake targets and building "out-of-source". If you're unfamiliar with modern build practices, an examination of the `CMakeLists.txt` file may be useful.
