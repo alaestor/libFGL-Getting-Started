@@ -41,3 +41,12 @@ This example assumes that you have the [CMake](https://cmake.org/) build system,
 	```
 	./build/bin/main.exe
 	```
+
+
+```
+conan remote add fgl-conan https://fgl.jfrog.io/artifactory/api/conan/fgl-conan
+conan install . -if "build/conan" -g "cmake"
+cmake -H"." -B"build"
+cmake --build build
+./build/bin/main.exe
+```
